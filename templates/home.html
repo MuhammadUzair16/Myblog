@@ -1,0 +1,14 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Basic Wisdom{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Basic Wisdom</h1>
+    <p class="lead">Discover Everyday Wisdom and Insights</p>
+    <hr class="my-4">
+    <p>Discover everyday wisdom and insights on a variety of topics at Basic Wisdom.</p>
+    <a class="btn btn-primary btn-lg" href="{% url 'post_list' %}" role="button">View Blog</a>
+</div>
+{% endblock %}

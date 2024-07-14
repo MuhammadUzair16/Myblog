@@ -1,0 +1,31 @@
+/* responsive.css */
+
+/* General Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Navbar Responsive Styles */
+@media (max-width: 768px) {
+    .navbar a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Blog Post List Responsive Styles */
+@media (max-width: 768px) {
+    .post-item {
+        padding: 15px;
+    }
+}
+
+/* Blog Post Detail Responsive Styles */
+@media (max-width: 768px) {
+    .post-detail {
+        padding: 15px;
+    }
+}
